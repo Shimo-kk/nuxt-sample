@@ -24,4 +24,4 @@ RUN npm run build
 # 3000番を公開
 EXPOSE 3000
 
-# CMD ["npm", "start"]
+CMD ["npm", "start"]

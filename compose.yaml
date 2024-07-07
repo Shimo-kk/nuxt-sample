@@ -9,7 +9,7 @@ services:
       - ./container/app/src:/usr/src
       - node_data:/src/node_modules
     tty: true
-    #command: npm run dev
+    command: npm run dev
 
 volumes:
   node_data:
